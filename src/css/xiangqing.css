@@ -39,3 +39,18 @@
 #nav .nav_ul>li:nth-child(1)>ul>li>p{font-size:13px;color:#666;line-height:17px;}
 #nav .nav_ul>li:nth-child(1)>ul>li>p>span{padding:14px 7px;font-size:12px;}
 #content ul>li{float:left;font-size:13px;line-height:30px;}
+#content .image{height:642px;width:560px;border:1px solid #ccc;float:left;}
+#content .image>img{width:558px;height:558px;}
+#content .image>.smallImg{height:84px;border-top:1px solid #ccc;}
+#content .introduce{height:642px;width:560px;float:right;border:1px solid #ccc;}
+#content .introduce>p{font-size:13px;line-height:25px;padding-left:20px;}
+#content .introduce>h4{font-size:13px;color:red;padding-left:20px;}
+#content .introduce .mingzi{font-size:16px;font-weight:bold;height:31px;border-bottom:1px dotted #ccc;}
+#content .introduce .price{font-size:13px;}
+#content .introduce .price>i{font-size:25px;color:red;}
+#content .introduce .star span{display:inline-block;height:15px;overflow:hidden;}
+#content .introduce .sizeList{height:262px;background-color:#FEFCF2;border:1px dotted red;}
+#content .introduce .sizeList p{font-size:13px;line-height:35px;padding-left:20px;}
+#content .introduce .sizeList .num button{width:20px;height:20px;border:1px solid #ccc;}
+#content .introduce .sizeList .num input{width:58px;height:20px;border:1px solid #ccc;text-align:center;}
+#content .introduce .sizeList .buy{padding-left:20px;}

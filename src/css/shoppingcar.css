@@ -1,0 +1,32 @@
+.container{width:980px;}
+#top{height:27px;background:#F6F6F6;}
+#top .start{text-align:right;line-height:27px;}
+#top .start span a{padding:0 5px;}
+#top .start span a:nth-child(1){border-right:1px solid red;}
+#top .start span  a{color:red;}
+
+#top .start a{font-size:13px;} 
+#top .start>a{padding:0 15px;margin-left:10px;}
+#top .start>a:nth-child(2){background:url('../imges/xiala.png') no-repeat right center;}
+#top .start>a:nth-child(4){background:url('../imges/xiala.png') no-repeat right center;}
+#top .start>a:nth-child(5){background:url('../imges/xiala.png') no-repeat right center;}
+#top .start>a:nth-child(6){background:url('../imges/mobile.png') no-repeat left center;}
+#header{height:52px;padding-top:15px;}
+#header .container{border-bottom:1px solid black;}
+#header h1{float:left;width:259px;height:37px;text-indent:-20000px;background:url('../imges/logo_d.gif') no-repeat;}
+#header .tel{width:308px;text-indent:-10000px;float:right;background:url('../imges/hotline-d.gif') no-repeat right center;}
+#step{height:64px;padding-top:20px;}
+#step .step_1{height:44px;background:url('../imges/step_bg.gif') no-repeat;}
+#step .step_1 li{float:left;line-height:34px;font-size:15px;padding:0 82px 0 54px;}
+#step .step_1 .selected{background:url('../imges/step_selected.png') no-repeat;color:white;}
+#goodlist .goodlist_1{border:1px solid #ccc;width:980px;}
+#goodlist .goodlist_1 tr{border:1px solid #ccc;font-size:13px;line-height:38px;}
+#goodlist .goodlist_1 thead tr{background:#F3F3F3;}
+#goodlist .goodlist_1 tfoot tr:nth-child(2){background:#F3F3F3;}
+#goodlist .goodlist_1 tr p{text-align:right;}
+#goodlist .goodlist_1 tfoot tr:nth-child(2) i{color:red;font-size:20px;}
+#submit_dd{padding-top:10px;font-size:13px;}
+#submit_dd span:nth-child(2) a:nth-child(2){display:inline-block;width:145px;height:41px;background:url('../imges/submit3.gif') no-repeat;overflow:hidden;}
+#submit_dd span:nth-child(2){float:right;}
+#submit_dd span:nth-child(2) a:nth-child(1){padding-left:20px;background:url('../imges/basket.gif') no-repeat;vertical-align:middle;}
+

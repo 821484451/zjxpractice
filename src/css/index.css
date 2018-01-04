@@ -38,8 +38,11 @@
 /*#nav .nav_ul>li:nth-child(1)>ul>li>p{height:17px;}*/
 #nav .nav_ul>li:nth-child(1)>ul>li>p{font-size:13px;color:#666;line-height:17px;}
 #nav .nav_ul>li:nth-child(1)>ul>li>p>span{padding:14px 7px;font-size:12px;}
-#banner{height:500px;background:url(../imges/banner.jpg) no-repeat center;position:relative;}
-#banner img{position:absolute;right:0;}
+#banner{height:500px;position:relative;overflow:hidden;}
+#banner>img{position:absolute;right:0;}
+#banner .lunbo{width:8000px;position:absolute;left:0;top:0;}
+#banner .lunbo li{float:left;}
+#banner .lunbo li>img{width:1600px;height:500px;}
 #brand .container{height:83px;border:2px solid #ccc;overflow:hidden;position:relative;}
 #brand .container>ul{width:2100px;height:83px;padding-top:10px;position:absolute;left:0;top:0;}
 #brand .container>ul>li{float:left;border-right:1px solid #ccc;}

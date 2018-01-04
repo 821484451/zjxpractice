@@ -15,15 +15,23 @@
 #content .form .input>p:nth-child(2){padding-left:60px;line-height:30px;}
 #content .form .password p>input{width:253px;height:28px;border:1px solid #666;background:#F7F7F7;}
 #content .form .password>p:nth-child(2){padding-left:60px;line-height:30px;}
-#content .form .confirm p>input{width:253px;height:28px;border:1px solid #666;background:#F7F7F7;}
-#content .form .confirm>p:nth-child(2){padding-left:60px;line-height:30px;}
-#content .form .check p>input{width:67px;height:28px;border:1px solid #666;background:#F7F7F7;}
-#content .form .check>p:nth-child(2){padding-left:60px;line-height:30px;}
-#content .form .checkbox>p{padding-left:60px;line-height:20px;}
-#content .form .submit>p{padding-left:60px;line-height:20px;margin-top:10px;font-size:15px;line-height:30px;}
+
+#content .form .submit>p{padding-left:45px;line-height:20px;margin-top:10px;font-size:15px;line-height:30px;}
+#content .form .noUser>p{margin-left:45px;width:265px;padding-bottom:20px;border-bottom:1px dotted #ccc;line-height:20px;margin-top:10px;font-size:15px;line-height:30px;font-size:12px;}
+#content .form .noUser>p>a{text-decoration:underline;color:#f60;font-size:12px;margin-left:5px;}
+#content .form .col{width:278px;margin-left:45px;}
+#content .form .col>p{line-height:30px;}
+
+
+
+
+
+
+
 #footer{padding-top:20px;}
 #footer p{font-size:12px;line-height:30px;text-align:center;color:#666;}
 #footer ul{width:540px;margin:0 auto;}
 #footer ul>li{float:left;font-size:12px;line-height:15px;width:60px;text-align:center;border-right:1px solid #666;}
+
 
 

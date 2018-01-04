@@ -1,0 +1,5 @@
+.container{width:960px;}
+#head{height:90px;padding-top:20px;}
+#head h1{float:left;width:172px;height:60px;text-indent:-10000px;background:url('../imges/logo.gif') no-repeat;}
+#head .hotline{width:261px;height:100%;float:right;}
+#head .hotline h4{width:261px;height:22px;background:url('../imges/hotline2.gif') no-repeat;}

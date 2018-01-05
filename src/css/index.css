@@ -38,23 +38,42 @@
 /*#nav .nav_ul>li:nth-child(1)>ul>li>p{height:17px;}*/
 #nav .nav_ul>li:nth-child(1)>ul>li>p{font-size:13px;color:#666;line-height:17px;}
 #nav .nav_ul>li:nth-child(1)>ul>li>p>span{padding:14px 7px;font-size:12px;}
-#banner{height:500px;position:relative;overflow:hidden;}
+#banner{width:1423px;height:500px;position:relative;overflow:hidden;}
 #banner>img{position:absolute;right:0;}
-#banner .lunbo{width:8000px;position:absolute;left:0;top:0;}
+#banner .lunbo{width:8538px;position:absolute;left:0;top:0;}
 #banner .lunbo li{float:left;}
-#banner .lunbo li>img{width:1600px;height:500px;}
+#banner .lunbo li>img{width:1423px;height:500px;}
+#banner .btns{width:175px;position:absolute;left:50%;margin-left:-87.5px;bottom:30px;}
+#banner .btns>li{width:25px;height:25px;margin:5px;float:left;border-radius:50%;border:1px solid #ccc;background:#666;}
+
+
+
 #brand .container{height:83px;border:2px solid #ccc;overflow:hidden;position:relative;}
 #brand .container>ul{width:2100px;height:83px;padding-top:10px;position:absolute;left:0;top:0;}
 #brand .container>ul>li{float:left;border-right:1px solid #ccc;}
 #brand .container>ul>li>img{width:56px;height:42px;margin-right:5px;}
 #brand .container>ul>li>p{font-size:12px;text-align:center;line-height:20px;}
 
-#brand .container>span{position:absolute;left:0;top:50%;margin-top:-23.5px;}
+
+#brand .container>span{position:absolute;left:0;top:50%;margin-top:-23.5px;z-index:1000;}
 #brand .container .next{left:100%;margin-left:-26px;}
+
+
+
 #intimebuy{padding-top:13px;}
 #intimebuy .tab{width:889px;height:361px;border:1px solid #ccc;float:left;}
 #intimebuy .tab>ul{height:38px;background:#F0F0F0;}
 #intimebuy .tab>ul>li{height:38px;width:132px;float:left;display:inline-block;text-align:center;font-size:14px;line-height:38px;border-right:1px solid #fff;}
+#intimebuy .tab>.goods{width:889px;height:323px;position:relative;}
+#intimebuy .tab>.goods>.same{width:889px;height:323px;position:absolute;display:none;}
+#intimebuy .tab>.goods>.same>.good{width:202px;height:291px;margin:5px;border:1px solid #ccc;float:left;font-size:13px;}
+#intimebuy .tab>.goods>.limit{display:block;}
+#intimebuy .tab>.goods>.same>.good img{width:160px;height:160px;}
+
+
+
+
+
 #intimebuy .gonggao{width:299px;height:131px;border:2px solid #ccc;float:right;}
 #intimebuy .gonggao>span{font-size:12px;line-height:40px;}
 #intimebuy .gonggao>span:nth-child(1){font-weight:bold;padding-left:10px;}

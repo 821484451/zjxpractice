@@ -28,25 +28,25 @@
                     <div class="user">用户注册</div>
                     <div class="input">
                         <p>&nbsp;&nbsp;&nbsp;登录名：<input type="text" name="username" class="username"/></p>
-                        <p>请填写手机或电子邮箱</p>
+                        <p class="test_u">请填写手机或电子邮箱</p>
                     </div>
                     <div class="password">
                         <p>设置密码：<input type="password" name="setpassword" class="setpassword"/></p>
-                        <p>6-20位，区分大小写，不能与用户名相同</p>
+                        <p class="test_p">6-20位，区分大小写，不能与用户名相同</p>
                     </div>
                     <div class="confirm">
                         <p>确认密码：<input type="password" name="confirmpassword" class="confirmpassword"/></p>
-                        <p>请再输入一遍您上面输入的密码</p>
+                        <p class="test_c">请再输入一遍您上面输入的密码</p>
                     </div>
                     <div class="check">
-                        <p>&nbsp;&nbsp;&nbsp;验证码：<input type="text" name="username" class="username"/></p>
-                        <p>请输入右侧的验证码</p>
+                        <p>&nbsp;&nbsp;&nbsp;验证码：<input type="text" name="username" class="verification"/><span class="authCode"></span></p>
+                        <p class="test_v">请输入右侧的验证码</p>
                     </div>
                     <div class="checkbox">
                         <p><input type="checkbox" />我是淘鞋招行联名卡用户</p>
                     </div>
                     <div class="submit">
-                        <p><a href="#"><img src="../imges/submit.gif" alt="" /></a><a href="#" style="color:#5C8ACE">《淘鞋网服务协议》</a></p>
+                        <p><a href="#" id="btn"><img src="../imges/submit.gif"  /></a><a href="#" style="color:#5C8ACE">《淘鞋网服务协议》</a></p>
                     </div>
                 </div>
             </div>
@@ -68,5 +68,6 @@
     </div>
 </body>
 <script src="../lib/jquery-3.2.1.js"></script>
+<script src="../js/common.js"></script>
 <script src="../js/register.js"></script>
 </html>

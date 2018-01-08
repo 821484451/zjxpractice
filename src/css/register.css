@@ -18,6 +18,7 @@
 #content .form .confirm p>input{width:253px;height:28px;border:1px solid #666;background:#F7F7F7;}
 #content .form .confirm>p:nth-child(2){padding-left:60px;line-height:30px;}
 #content .form .check p>input{width:67px;height:28px;border:1px solid #666;background:#F7F7F7;}
+#content .form .check p>span{font-size:20px;line-height:28px;vertical-align:middle;}
 #content .form .check>p:nth-child(2){padding-left:60px;line-height:30px;}
 #content .form .checkbox>p{padding-left:60px;line-height:20px;}
 #content .form .submit>p{padding-left:60px;line-height:20px;margin-top:10px;font-size:15px;line-height:30px;}

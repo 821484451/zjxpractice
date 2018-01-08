@@ -31,7 +31,7 @@ $(document).ready(function(){
 
             $products.html(data);
             var $goods=$('.good');
-            console.log($goods)
+            // console.log($goods)
             $goods.hover(function(){
                 this.style.border="4px solid orange"
                 $(this).find('._size').show();
@@ -49,6 +49,30 @@ $(document).ready(function(){
     }
     xhr.open('get','../api/data/products.json');
     xhr.send();
+
+
+    var status=[200,304]
+    var xhr2=new XMLHttpRequest();
+    xhr2.onload=function(){
+        if(status.includes(xhr2.status)){
+            var data=JSON.parse(xhr2.responseText);
+            console.log(data);
+            $limit=$('.limit');
+            $limit.html(data.map(function(item){
+                return '<div class="good" data-size="'+item.size+'" data-id="'+item.id+'"><a href="#"><img src="../imges/product_'+item.id+'.jpg" /></a><p><span class="l_p">'+item.l_price+'</span><del>'+item.f_price+'</del></p><p>'+item.name+'</p><p class="_size">尺码：'+item.size+'</p></div>'
+            }))
+
+
+            $('.good').on('click',function(){
+                console.log($(this).attr('data-id'))
+                var _id=$(this).attr('data-id')
+                console.log(_id)
+                location.href='../html/xiangqing.html?num='+_id;
+            });
+        }
+    }
+    xhr2.open('get','../api/data/limittime.json');
+    xhr2.send();
 
 
 

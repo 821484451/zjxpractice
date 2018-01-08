@@ -74,6 +74,10 @@
 #paper .num>a{display:inline-block;width:20px;height:20px;font-size:12px;text-align:center;line-height:20px;border:1px solid #ccc;}
 #paper .num>a:nth-child(5){width:59px;height:20px;}
 #limittime .limit{height:362px;background:#EDEFED;margin-top:20px;border:1px solid #666;}
+#limittime .limit .good{float:left;font-size:12px;padding:30px 20px;margin:10px;}
+
+
+
 #_search{height:98px;padding-top:20px;}
 #_search .box{width:404px;height:40px;margin:0 auto;position:relative;background:url('../imges/searchbox2') no-repeat;}
 #_search .box input{height:32px;}
